@@ -43,39 +43,46 @@ const Banner = styled.div`
     display: block;
     height: ${props => (props.parallax ? "80vh" : "100vh")};
     width: 100%;
-    background-image: ${props => (props.different ? "url('developer.jpg')" : "url('banner.jpg')")};
+    background-image: ${props => (props.different ? "url('developer.jpg')" : "url('beads.jpg')")};
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: ${props => (props.parallax ? "fixed" : "scroll")};
-    filter: grayscale(100%) blur(2px);
+    filter: blur(1px);
   }
 `
 
 const TextWrapper = styled.div`
   position: absolute;
   z-index: 1;
-  left: 50%;
-  top: 50%;
+  left: 30%;
+  top: 35%;
   transform: translate(-50%, -50%);
   color: white;
   div {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     flex-direction: column;
   }
   h2 {
     font-size: 5rem;
     opacity: 1;
-    padding: 0.35em 1em;
+    padding: 0.45em 1em;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     text-transform: uppercase;
     margin: 0;
   }
+  h3 {
+    font-size: 2rem;
+    opacity: 1;
+    padding: 0.45em 1em;
+    text-transform: uppercase;
+    margin: 0;
+  }
   a {
-    background-color: #ed4933;
+    background-color: #fa6969;
     box-shadow: none;
     color: #ffffff;
     border-radius: 3px;
@@ -117,9 +124,12 @@ const MoreText = styled.div`
     background-position: center;
   }
 `
-
 const SectionTwo = styled.section`
-  background-color: ${props => (props.white ? "#ffffff" : "#21b2a6")};
+  background-color: #008080;
+  color: #ffffff;
+`
+const SectionThree = styled.section`
+  background-color: ${props => (props.white ? "#ffffff" : "#db9797")};
   text-align: center;
   padding: 10rem 0;
   div {
@@ -139,10 +149,6 @@ const SectionTwo = styled.section`
   }
 `
 
-const SectionThree = styled.section`
-  background-color: #2b343d;
-  color: #ffffff;
-`
 
 const FlexBoxIndex = styled.div`
   display: flex;
@@ -162,7 +168,7 @@ const FlexBoxIndex = styled.div`
 `
 
 const SectionFour = styled.section`
-  background-color: #505393;
+  background-color: #737373;
   color: #ffffff;
   text-align: center;
   .header__section4 {
@@ -173,7 +179,7 @@ const SectionFour = styled.section`
     font-size: 3rem;
     padding: 1.35em 0;
     color: #ffffff;
-    border-bottom: 2px solid #464981;
+    border-bottom: 2px solid #737373;
     text-transform: uppercase;
     letter-spacing: 0.225em;
     margin: 0;
@@ -230,7 +236,7 @@ const FormFive = styled.div`
     padding: 0.75em 1em;
   }
   .button__primary {
-    background-color: #ed4933;
+    background-color: #fa6969;
     box-shadow: none;
     color: #ffffff;
     border-radius: 3px;

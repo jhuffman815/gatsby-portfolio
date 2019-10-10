@@ -8,7 +8,7 @@ export default ({ children }) => (
     <div>
         <Header>
             <GenericH2 none>
-                <Link to="/" style={{color: '#fff'}}>GeekyHacker</Link>
+                <Link to="/" style={{color: '#fa6969'}}>Jewell Huffman</Link>
             </GenericH2>
             <div className="menu__items">
                 <Link to="/works"><GenereicPara lessSize lessSpacing grey>Works</GenereicPara></Link>

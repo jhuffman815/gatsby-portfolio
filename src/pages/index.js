@@ -45,34 +45,11 @@ class IndexPage extends Component {
                 <section style={{ position: 'relative' }}>
                     <Banner></Banner>
                     <TextWrapper>
-                        <div>
-                            <h2>GeekyHacker</h2>
-                            <GenereicPara>One Stop For<br />
-                                All your development<br />
-                                And design needs</GenereicPara>
-                            <Link to="/works">Our Work</Link>
-                        </div>
+                        
                     </TextWrapper>
-                    <MoreText>Learn More</MoreText>
+                    <MoreText>Scroll to Learn More</MoreText>
                 </section>
                 <SectionTwo>
-                    <div>
-                        <GenericH2>Our Passion</GenericH2>
-                        <GenereicPara lessSize grey>Most good programmers do programming not because they expect to get paid,<br />
-                            but because it's fun to program.</GenereicPara>
-                        <h5>- Linus Torvalds</h5>
-                    </div>
-                    <span>
-                        <FontAwesomeIcon icon="gem" color="#04F5C6" size="6x" style={{marginRight: '3rem'}}
-                            fixedWidth border
-                        />
-                        <FontAwesomeIcon icon="heart" color="#00F0FF" size="6x" style={{marginRight: '3rem'}}
-                            fixedWidth border
-                        />
-                        <FontAwesomeIcon icon="code" color="#73DBFD" size="6x" fixedWidth border />
-                    </span>
-                </SectionTwo>
-                <SectionThree>
                     <FlexBoxIndex>
                         <div className="image">
                             <img src="pic01.jpg" alt="pic01"/>
@@ -100,12 +77,28 @@ class IndexPage extends Component {
                             <GenereicPara lessSize lessSpacing>We develop Mobile apps in Reactive Native, which can be used in both ios and Android.</GenereicPara>
                         </div>
                     </FlexBoxIndex>
+                </SectionTwo>
+                <SectionThree>
+                    <div>
+                        <GenericH2>What I Hope To Do</GenericH2>
+                        <GenereicPara lessSize grey>My mission as a developer is to contribute to applications that empower and improve lives. I believe that through code we can make the world a better place by building products that empower communities. </GenereicPara>
+                
+                    </div>
+                    <span>
+                        <FontAwesomeIcon icon="gem" color="#fa6969" size="6x" style={{marginRight: '3rem'}}
+                            fixedWidth border
+                        />
+                        <FontAwesomeIcon icon="heart" color="#008080" size="6x" style={{marginRight: '3rem'}}
+                            fixedWidth border
+                        />
+                        <FontAwesomeIcon icon="code" color="#737373" size="6x" fixedWidth border />
+                    </span>
                 </SectionThree>
                 <SectionFour>
                     <div className="header__section4">
-                        <div className="title__section4">Our Technologies</div>
-                        <GenereicPara lessSize grey>We use modern and latest technologies which helps our clients<br />
-                            as they are highly scalable and maintainable.
+                        <div className="title__section4">Technologies</div>
+                        <GenereicPara lessSize grey>I strive to incorporate the latest technologies to provide clients<br />
+                            with scalable and maintainable products.
                         </GenereicPara>
                     </div>
                     <div className="grid__section4">
