@@ -64,7 +64,7 @@ class IndexPage extends Component {
                     </FlexBoxIndex>
                     <FlexBoxIndex inverse>
                         <div className="text__section3">
-                           
+                        <GenereicPara lessSize lessSpacing>In my free time, I attend meetups, listen to engineering podcasts, read tech blogs, and take other online courses in order to help me develop a growth mindset and become a better developer.</GenereicPara>
                           
                         </div>
                         <div className="image">
@@ -77,7 +77,7 @@ class IndexPage extends Component {
                         </div>
                         <div className="text__section3">
                             <GenericH2 none>Mobile App Development</GenericH2>
-                            <GenereicPara lessSize lessSpacing>I develop Mobile apps in Reactive Native, which can be used in both ios and Android.</GenereicPara>
+                            <GenereicPara lessSize lessSpacing>I develop mobile apps in React Native, which can be used in both iOS and Android.</GenereicPara>
                         </div>
                     </FlexBoxIndex>
                 </SectionTwo>

@@ -12,7 +12,6 @@ const projects = [
     {image: "quote.png", title: "Quote Generator", link: "https://jhuffman815.github.io/Quote-Generator/"},
     {image: "exercise.png", title: "Exercise Tracker", link: "https://jhuffman-exercise-tracker.netlify.com/"},
     {image: "jsapps.png", title: "Javascript Mini-Apps", link: "https://jhuffman815.github.io/Javascript-MiniApps/"},
-    {image: "portfolio.png", title: "Portfolio Site", link: "https://nabendu82.github.io/"},
 ]
 
 export default () => (

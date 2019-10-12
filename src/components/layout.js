@@ -12,7 +12,7 @@ export default ({ children }) => (
             </GenericH2>
             <div className="menu__items">
                 <Link to="/works"><GenereicPara lessSize lessSpacing grey>PROJECTS</GenereicPara></Link>
-                <Link to="/about"><GenereicPara lessSize lessSpacing grey>ABOUT</GenereicPara></Link>
+                
             </div>
         </Header>
         {children}
