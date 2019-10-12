@@ -47,7 +47,8 @@ class IndexPage extends Component {
                     <TextWrapper>
                         <div>
                             <h2>HI, I'M JEWELL!</h2>
-                            <h3>Welcome to my site :) </h3>
+                            <h3>Welcome to my site :) </h3><br/>
+                            <Link to="/works">My Work</Link>
                         </div>
                     </TextWrapper>
                     <MoreText>Scroll to Learn More</MoreText>
@@ -59,7 +60,7 @@ class IndexPage extends Component {
                         </div>
                         <div className="text__section3">
                             <GenericH2 none>About Me</GenericH2>
-                            <GenereicPara lessSize lessSpacing>I hand code beautiful websites using HTML5, CSS3, JS because they are fully customizable and efficient. No Worpress websites here.</GenereicPara>
+                            <GenereicPara lessSize lessSpacing>I hand code beautiful websites using HTML5, CSS3, JS -- fully customizable and efficient. No Worpress websites here.</GenereicPara>
                         </div>
                     </FlexBoxIndex>
                     <FlexBoxIndex inverse>
