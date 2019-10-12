@@ -6,13 +6,13 @@ const GenereicPara = styled.p`
   letter-spacing: ${props => (props.lessSpacing ? "0.075em" : "0.225em")};
   font-size: ${props => (props.lessSize ? "1.5rem" : "2.5rem")};
   line-height: ${props => (props.lessSize ? "2rem" : "3rem")};
-  color: ${props => (props.grey ? "#c8ece9" : "#ffffff")};
+  color: ${props => (props.grey ? "#fa6969" : "#008080")};
 `
 
 const GenericH2 = styled.h2`
   font-size: 3rem;
   padding: ${props => (props.none ? "0" : "1.35em 0")};
-  color: ${props => (props.dark ? "#4E4852" : "#ffffff")};
+  color: ${props => (props.dark ? "#4E4852" : "#008080")};
   border-bottom: ${props => (props.none ? "0" : "2px solid #1d9c91")};
   text-transform: uppercase;
   letter-spacing: 0.6rem;
@@ -43,7 +43,7 @@ const Banner = styled.div`
     display: block;
     height: ${props => (props.parallax ? "80vh" : "100vh")};
     width: 100%;
-    background-image: ${props => (props.different ? "url('developer.jpg')" : "url('beads.jpg')")};
+    background-image: ${props => (props.different ? "url('beads.jpg')" : "url('computer.jpg')")};
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -54,9 +54,9 @@ const Banner = styled.div`
 
 const TextWrapper = styled.div`
   position: absolute;
-  z-index: 1;
-  left: 30%;
-  top: 35%;
+  z-index: 0;
+  left: 50%;
+  top: 30%;
   transform: translate(-50%, -50%);
   color: white;
   div {
@@ -66,11 +66,9 @@ const TextWrapper = styled.div`
     flex-direction: column;
   }
   h2 {
-    font-size: 5rem;
+    font-size: 8rem;
     opacity: 1;
-    padding: 0.45em 1em;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    padding: 0;
     text-transform: uppercase;
     margin: 0;
   }
@@ -125,8 +123,8 @@ const MoreText = styled.div`
   }
 `
 const SectionTwo = styled.section`
-  background-color: #008080;
-  color: #ffffff;
+  background-color: white;;
+  color: #008080;
 `
 const SectionThree = styled.section`
   background-color: ${props => (props.white ? "#ffffff" : "#db9797")};

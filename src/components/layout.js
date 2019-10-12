@@ -11,8 +11,8 @@ export default ({ children }) => (
                 <Link to="/" style={{color: '#fa6969'}}>Jewell Huffman</Link>
             </GenericH2>
             <div className="menu__items">
-                <Link to="/works"><GenereicPara lessSize lessSpacing grey>Works</GenereicPara></Link>
-                <Link to="/about"><GenereicPara lessSize lessSpacing grey>About</GenereicPara></Link>
+                <Link to="/works"><GenereicPara lessSize lessSpacing grey>PROJECTS</GenereicPara></Link>
+                <Link to="/about"><GenereicPara lessSize lessSpacing grey>ABOUT</GenereicPara></Link>
             </div>
         </Header>
         {children}
@@ -26,8 +26,8 @@ export default ({ children }) => (
                 <FontAwesomeIcon icon={faPinterest} size="2x" fixedWidth />
             </div>
             <div class="copyright">
-                <span>&copy; 2019, GeekyHacker | </span>
-                <span>Made with ❤️ and ☕️ in India</span>
+                <span>&copy; 2019, Jewell Huffman | </span>
+                <span>Made with ❤️ and ☕️</span>
             </div>
         </Footer>
     </div>

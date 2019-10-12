@@ -45,7 +45,10 @@ class IndexPage extends Component {
                 <section style={{ position: 'relative' }}>
                     <Banner></Banner>
                     <TextWrapper>
-                        
+                        <div>
+                            <h2>HI, I'M JEWELL!</h2>
+                            <h3>Welcome to my site :) </h3>
+                        </div>
                     </TextWrapper>
                     <MoreText>Scroll to Learn More</MoreText>
                 </section>
@@ -55,17 +58,17 @@ class IndexPage extends Component {
                             <img src="pic01.jpg" alt="pic01"/>
                         </div>
                         <div className="text__section3">
-                            <GenericH2 none>Website Development</GenericH2>
-                            <GenereicPara lessSize lessSpacing>We hand code beautiful websites using HTML5, CSS3, JS because they are fully customizable and efficient. No Worpress websites here.</GenereicPara>
+                            <GenericH2 none>About Me</GenericH2>
+                            <GenereicPara lessSize lessSpacing>I hand code beautiful websites using HTML5, CSS3, JS because they are fully customizable and efficient. No Worpress websites here.</GenereicPara>
                         </div>
                     </FlexBoxIndex>
                     <FlexBoxIndex inverse>
                         <div className="text__section3">
-                            <GenericH2 none>Website Design</GenericH2>
-                            <GenereicPara lessSize lessSpacing>We have talented and experienced Web Designers, who can design beautiful and usable websites.</GenereicPara>
+                           
+                          
                         </div>
                         <div className="image">
-                            <img src="pic02.jpg" alt="pic02"/>
+                            <img src="jewel.jpg" alt="pic02"/>
                         </div>
                     </FlexBoxIndex>
                     <FlexBoxIndex>
@@ -74,7 +77,7 @@ class IndexPage extends Component {
                         </div>
                         <div className="text__section3">
                             <GenericH2 none>Mobile App Development</GenericH2>
-                            <GenereicPara lessSize lessSpacing>We develop Mobile apps in Reactive Native, which can be used in both ios and Android.</GenereicPara>
+                            <GenereicPara lessSize lessSpacing>I develop Mobile apps in Reactive Native, which can be used in both ios and Android.</GenereicPara>
                         </div>
                     </FlexBoxIndex>
                 </SectionTwo>
@@ -161,7 +164,7 @@ class IndexPage extends Component {
                               data-netlify="true"
                               onSubmit={this.handleSubmit}>
                             <div className="fields">
-                                <GenericH2 none>Contact Us</GenericH2>
+                                <GenericH2 none>Contact Me</GenericH2>
                                 <input type="text" name="name" id="name" placeholder="Name" value={name} onChange={this.handleChange} />
                                 <input type="email" name="email" id="email" placeholder="Email" value={email} onChange={this.handleChange} />
                                 <textarea name="message" id="message" placeholder="Message" rows="7" value={message} onChange={this.handleChange}></textarea>
