@@ -10,8 +10,12 @@ const webProjects = [
     {image: "calculator.png", title: "Calculator", link: " https://jhuffman815.github.io/calculator/"},
     {image: "quote.png", title: "Quote Generator", link: "https://jhuffman815.github.io/Quote-Generator/"},
     {image: "exercise.png", title: "Exercise Tracker", link: "https://jhuffman-exercise-tracker.netlify.com/"},
-    {image: "jsapps.png", title: "Javascript Mini-Apps", link: "https://jhuffman815.github.io/Javascript-MiniApps/"},
+    {image: "meme.png", title: "Javascript Mini-Apps", link: "https://jhuffman-meme-generator.netlify.app/"},
     {image: "speedtypinggame.png", title: "Speedtyping Game", link: "https://jhuffman-speedtyping-game.netlify.app/"},
+]
+
+const mobileProjects = [
+    
 ]
 
 export default () => (
