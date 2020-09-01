@@ -10,7 +10,7 @@ const webProjects = [
     {image: "calculator.png", title: "Calculator", link: " https://jhuffman815.github.io/calculator/"},
     {image: "quote.png", title: "Quote Generator", link: "https://jhuffman815.github.io/Quote-Generator/"},
     {image: "exercise.png", title: "Exercise Tracker", link: "https://jhuffman-exercise-tracker.netlify.com/"},
-    {image: "meme.png", title: "Javascript Mini-Apps", link: "https://jhuffman-meme-generator.netlify.app/"},
+    {image: "meme.png", title: "Meme Generator", link: "https://jhuffman-meme-generator.netlify.app/"},
     {image: "speedtypinggame.png", title: "Speedtyping Game", link: "https://jhuffman-speedtyping-game.netlify.app/"},
 ]
 
@@ -21,7 +21,7 @@ const mobileProjects = [
 export default () => (
     <Layout>
         <Works>
-            <GenericH2 none dark some style={{textAlign: 'center'}}>Web</GenericH2>
+            <GenericH2 dark some style={{textAlign: 'center'}}>Web</GenericH2>
             <section class="gallery__flex">
              { webProjects && webProjects.map(proj => <Project key={proj.title} project={proj} />)}
             </section>
