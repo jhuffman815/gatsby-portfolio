@@ -78,14 +78,14 @@ class IndexPage extends Component {
                         </div>
                         <div className="text__section3">
                             <GenericH2 none>Mobile App Development</GenericH2>
-                            <GenereicPara lessSize lessSpacing>I develop mobile apps in React Native, which can be used in both iOS and Android.</GenereicPara>
+                            <GenereicPara lessSize lessSpacing>I develop iOS mobile applications with React Native and Swift UIKit.</GenereicPara>
                         </div>
                     </FlexBoxIndex>
                 </SectionTwo>
                 <SectionThree>
                     <div>
                         <GenericH2>What I Hope To Do</GenericH2>
-                        <GenereicPara lessSize grey>My mission as a developer is to contribute to applications that empower and improve lives. I believe that through code we can make the world a better place by building products that empower communities. </GenereicPara>
+                        <GenereicPara lessSize grey>My mission as a developer is to improve user experience with eye-catching design and clean, responsive layouts. </GenereicPara>
                 
                     </div>
                     <span>
@@ -111,48 +111,54 @@ class IndexPage extends Component {
                                 <FontAwesomeIcon icon={faReact} color="#00FFCC" size="3x" fixedWidth />
                                 <GenericH2 none>React</GenericH2>
                             </div>
-                            <GenereicPara lessSize lessSpacing grey>Modern JavaScript framework which will make your web application extremely fast and,
-                                    at the same time, handy for every user.</GenereicPara>
                         </div>
                         <div className="item2" style={{ backgroundColor: '#4A4D89' }}>
                             <div className="flex__section4">
                                 <FontAwesomeIcon icon="code" color="#00FFCC" size="3x" fixedWidth />
                                 <GenericH2 none>React Native</GenericH2>
                             </div>
-                            <GenereicPara lessSize lessSpacing grey>Cross-platform for mobile app development based on Javascript,
-                                    whose resulting code is compiled to Android and iOS.</GenereicPara>
                         </div>
                         <div className="item3" style={{ backgroundColor: '#484A83' }}>
                             <div className="flex__section4">
                                 <FontAwesomeIcon icon={faJs} color="#00FFCC" size="3x" fixedWidth />
                                 <GenericH2 none>JavaScript</GenericH2>
                             </div>
-                            <GenereicPara lessSize lessSpacing grey>JavaScript is the language of the web.
-                                    It is used for Web development, mobile development and app development and everything else.</GenereicPara>
                         </div>
                         <div className="item4" style={{ backgroundColor: '#45477E' }}>
                             <div className="flex__section4">
                                 <FontAwesomeIcon icon={faHtml5} color="#00FFCC" size="3x" fixedWidth />
                                 <GenericH2 none>HTML5</GenericH2>
                             </div>
-                            <GenereicPara lessSize lessSpacing grey>HTML, a standardized system for tagging text files
-                                    to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages.</GenereicPara>
                         </div>
                         <div className="item5" style={{ backgroundColor: '#424479' }}>
                             <div className="flex__section4">
                                 <FontAwesomeIcon icon={faCss3} color="#00FFCC" size="3x" fixedWidth />
                                 <GenericH2 none>CSS3</GenericH2>
                             </div>
-                            <GenereicPara lessSize lessSpacing grey>CSS is a style sheet language used for describing the
-                                    presentation of a document written in a markup language like HTML.</GenereicPara>
                         </div>
                         <div className="item6" style={{ backgroundColor: '#3F4174' }}>
                             <div className="flex__section4">
                                 <FontAwesomeIcon icon={faGalacticSenate} color="#00FFCC" size="3x" fixedWidth />
                                 <GenericH2 none>Gatsby</GenericH2>
                             </div>
-                            <GenereicPara lessSize lessSpacing grey>Gatsby is a free and open source framework based on React
-                                    that helps developers build blazing fast websites and apps</GenereicPara>
+                        </div>
+                        <div className="item6" style={{ backgroundColor: '#3F4174' }}>
+                            <div className="flex__section4">
+                                <FontAwesomeIcon icon={faGalacticSenate} color="#00FFCC" size="3x" fixedWidth />
+                                <GenericH2 none>Swift</GenericH2>
+                            </div>
+                        </div>
+                        <div className="item6" style={{ backgroundColor: '#3F4174' }}>
+                            <div className="flex__section4">
+                                <FontAwesomeIcon icon={faGalacticSenate} color="#00FFCC" size="3x" fixedWidth />
+                                <GenericH2 none>Firebase</GenericH2>
+                            </div>
+                        </div>
+                        <div className="item6" style={{ backgroundColor: '#3F4174' }}>
+                            <div className="flex__section4">
+                                <FontAwesomeIcon icon={faGalacticSenate} color="#00FFCC" size="3x" fixedWidth />
+                                <GenericH2 none>MongoDB</GenericH2>
+                            </div>
                         </div>
                     </div>
                 </SectionFour>

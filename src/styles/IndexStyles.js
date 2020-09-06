@@ -6,7 +6,7 @@ const GenereicPara = styled.p`
   letter-spacing: ${props => (props.lessSpacing ? "0.075em" : "0.225em")};
   font-size: ${props => (props.lessSize ? "1.5rem" : "2.5rem")};
   line-height: ${props => (props.lessSize ? "2rem" : "3rem")};
-  color: ${props => (props.grey ? "#fa6969" : "#008080")};
+  color: ${props => (props.grey ? "#e24e4e" : "#008080")};
 `
 
 const GenericH2 = styled.h2`
@@ -80,7 +80,7 @@ const TextWrapper = styled.div`
     margin: 0;
   }
   a {
-    background-color: #fa6969;
+    background-color: #e24e4e;
     box-shadow: none;
     color: #ffffff;
     border-radius: 3px;
@@ -154,7 +154,7 @@ const FlexBoxIndex = styled.div`
     width: ${props => (props.inverse ? "60%" : "40%")};
   }
   img {
-    width: 100%;
+    width: 60%;
   }
   .text__section3 {
     width: ${props => (props.inverse ? "40%" : "60%")};
@@ -234,7 +234,7 @@ const FormFive = styled.div`
     padding: 0.75em 1em;
   }
   .button__primary {
-    background-color: #fa6969;
+    background-color: #e24e4e;
     box-shadow: none;
     color: #ffffff;
     border-radius: 3px;

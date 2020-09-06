@@ -1,6 +1,6 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faFacebook, faInstagram, faLinkedin, faYoutube, faPinterest } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { Header, Footer, GenericH2, GenereicPara } from '../styles/IndexStyles';
 import { Link } from "gatsby";
 
@@ -18,12 +18,9 @@ export default ({ children }) => (
         {children}
         <Footer>
             <div class="icons">
-                <FontAwesomeIcon icon={faTwitter} size="2x" fixedWidth />
-                <FontAwesomeIcon icon={faFacebook} size="2x" fixedWidth />
-                <FontAwesomeIcon icon={faInstagram} size="2x" fixedWidth />
-                <FontAwesomeIcon icon={faLinkedin} size="2x" fixedWidth />
-                <FontAwesomeIcon icon={faYoutube} size="2x" fixedWidth />
-                <FontAwesomeIcon icon={faPinterest} size="2x" fixedWidth />
+                <Link to="https://twitter.com/jewell_huffman"><FontAwesomeIcon icon={faTwitter} size="2x" fixedWidth /></Link> 
+                <Link to="https://www.linkedin.com/in/jewell-huffman-84a4016a/"><FontAwesomeIcon icon={faLinkedin} size="2x" fixedWidth /></Link>
+                <Link to="https://github.com/jhuffman815"><FontAwesomeIcon icon={faGithub} size="2x" fixedWidth /></Link>
             </div>
             <div class="copyright">
                 <span>&copy; 2019, Jewell Huffman | </span>
