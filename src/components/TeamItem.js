@@ -9,7 +9,7 @@ function TeamItem() {
         <img src="https://imagizer.imageshack.com/v2/800x600q90/922/pYPogW.jpg" className="img-fluid rounded-circle" width="300px" alt=""/>
         <h3 className="mt-5">Jewell Huffman</h3>
         <p>
-        I hand code beautiful websites using HTML5, CSS3, JS -- fully customizable and efficient. In my free time, I attend meetups, listen to engineering podcasts, read tech blogs, and take online courses in order to help me develop a growth mindset and become a better developer. 
+        My mission as a Front-end developer is to create responsive websites built for an optimal user experience, with attention to detail and a faithful rendering to the design. In my free time, I attend meetups, listen to engineering podcasts, read tech blogs, and take online courses in order to help me develop a growth mindset and become a better developer. 
         I am also an avid rock climber and love to get outside as much as possible.
         </p>
         <SocialIcon className="mr-4" url={"https://twitter.com/jewell_huffman"} />
